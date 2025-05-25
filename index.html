@@ -15,9 +15,27 @@
             background-size: cover;
             background-position: center;
         }
+        .gradient{
+            width: 200px;
+            height: 20px;
+            pointer-events: none;
+            box-shadow: 0 0 100px 1px #C68EFD;
+            background: radial-gradient(#C68EFD, #C68EFD30);
+            z-index: -1;
+            position: absolute;
+        }
     </style>
 </head>
 <body>
-    
+    <main class="flex m-10 justify-center items-center min-h-screen bg-white rounded-xl opacity-60">
+      <h1>Hello World</h1>
+    </main>
+    <div id="gradient" class="gradient">
+
+    </div>
+    <script>
+       const gradient = document.getElementById("gradient");
+       
+    </script>
 </body>
 </html>
